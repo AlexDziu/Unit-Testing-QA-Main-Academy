@@ -14,8 +14,6 @@ public class MediumTestClass {
 
     private Calculator calc = new Calculator();
 
-    //TODO (**)
-    //add tests for new method - average value
     @Test
     public void testAverageValue() {
         int actualResult = calc.averageValue(2, 3, 10);
