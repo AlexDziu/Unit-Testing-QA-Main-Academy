@@ -3,7 +3,7 @@ package application;
 public class Calculator {
 
     //***************Simple methods************************
-
+    //add comment here...
     public int add(int a, int b) {
         return a + b;
     }
