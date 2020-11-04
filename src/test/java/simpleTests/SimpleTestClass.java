@@ -32,8 +32,8 @@ public class SimpleTestClass {
 
     @Test()
     public void testDivision() throws ArithmeticException {
-        double actualResult = calc.division2(25, 2);
-        assertEquals(12.5, actualResult, 0.0);
+        double actualResult = calc.division(25, 0);
+        assertEquals(0.0, actualResult, 0);
     }
 
     @Test
@@ -47,9 +47,6 @@ public class SimpleTestClass {
         double actualResult = calc.power(2, 3);
         assertEquals(8, actualResult, 1);
     }
-
-    // TODO (*)
-    //add tests for new methods (multiply, division, subtraction, square root, x^2)
 
 
 }

@@ -18,14 +18,22 @@ public class Calculator {
     }
 
 
-    public double division2(double a, double b) {
+    public static double division2(double a, double b) {
+        double result;
         try {
-            if (b == 0) {
-                System.out.println("You divide by 0");
-                return b;
-            }
+            result = a / b;
         } catch (ArithmeticException e) {
-            System.out.println("Cannot divide by zero");
+            System.out.println("You trying divide on zero");
+            result = b;
+        }
+        return result;
+    }
+
+    public double division(double a, double b) {
+
+        if (b == 0) {
+            System.out.println("You cannot divide by 0");
+            return b;
         }
         return a / b;
     }
