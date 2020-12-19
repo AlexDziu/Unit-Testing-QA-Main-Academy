@@ -2,8 +2,6 @@ package application;
 
 public class Calculator {
 
-    //***************Simple methods************************
-    //add comment here...
     public int add(int a, int b) {
         return a + b;
     }
@@ -12,25 +10,11 @@ public class Calculator {
         return a - b;
     }
 
-
     public int multiplication(int a, int b) {
         return a * b;
     }
 
-
-    public static double division2(double a, double b) {
-        double result;
-        try {
-            result = a / b;
-        } catch (ArithmeticException e) {
-            System.out.println("You trying divide on zero");
-            result = b;
-        }
-        return result;
-    }
-
     public double division(double a, double b) {
-
         if (b == 0) {
             System.out.println("You cannot divide by 0");
             return b;
@@ -45,8 +29,6 @@ public class Calculator {
     public double power(double a, double b) {
         return Math.pow(a, b);
     }
-
-    //***************Medium methods************************
 
     public int averageValue(int a, int b, int c) {
         return (a + b + c) / 3;
@@ -65,8 +47,6 @@ public class Calculator {
             return 0;
         }
     }
-
-    //***************Hard methods************************
 
     public int sumOfParameters(int... num) {
         int sum = 0;

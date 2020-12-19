@@ -12,18 +12,14 @@ public class HardTestClass {
 
     private Calculator calc = new Calculator();
 
-    //TODO (**)
-    //add tests for new method - divide by zero case
     @Test
-    public void testSumOfParameters() {
+    public void sumOfParameters() {
         int actualResult = calc.sumOfParameters(0, 3, 5);
         assertEquals(8, actualResult);
     }
 
-    //TODO (**)
-    //add tests for new method - addition with multiple parameters
     @Test
-    public void testDivideByZeroCase() {
+    public void divideByZero() {
         int actualResult = calc.divideByZeroCase(10, 0);
         assertEquals(-100, actualResult);
     }

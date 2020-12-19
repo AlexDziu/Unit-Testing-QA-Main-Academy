@@ -6,6 +6,33 @@ mvninzSuite# JUnit_TestNG-Maven
 3. Go to src/main/java/application and open Calculator class
 4. Implement all methods with TODO comments
 
+//***************Simple methods***************
+
+//TODO add method for subtraction
+
+//TODO add method for multiplication
+
+//TODO add method for division
+
+//TODO add method for square root (use Math class)
+
+//TODO add method for x^2
+
+//***************Medium methods***************
+
+//TODO (*) |average value| add method which calculate average value of 3 numbers
+
+//TODO (*) |even or odd| add method which get 1 number as parameter and return true if it even, and false - if odd
+
+//TODO (*) |biggest value| add method which get 2 number as parameters and return bigger of them, or 0 if they equals
+
+//***************Hard methods***************
+
+//TODO (**) |addition with multiple parameters| add method which return sum of any quantity of parameter
+
+//TODO (*) |divide by zero case| add method for division (check division by zero case
+// - if we try to divide by zero - return -100;
+
 5. Go to the test/java/simpleTask and open SimpleTestClass
 6. Create test for all simple methods from Calculator class
 

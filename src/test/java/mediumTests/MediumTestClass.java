@@ -15,33 +15,21 @@ public class MediumTestClass {
     private Calculator calc = new Calculator();
 
     @Test
-    public void testAverageValue() {
+    public void averageValue() {
         int actualResult = calc.averageValue(2, 3, 10);
         assertEquals(5, actualResult);
     }
 
-    //TODO (**)
-    //add tests for new method - even or odd
     @Test
-    public void testEvenOrOddNumbers() {
+    public void evenOrOddNumbers() {
         assertTrue(calc.evenOrOddNumbers(2));
         assertFalse(calc.evenOrOddNumbers(1));
     }
 
-    //TODO (**)
-    //add tests for new method - biggest value
     @Test
-    public void testBiggestValue() {
+    public void biggestValue() {
         int actualResult = calc.biggestValue(45, 4);
         assertEquals(45, actualResult);
     }
-    //TODO (**)
-    //add tests for new method - average value
-
-    //TODO (**)
-    //add tests for new method - even or odd
-
-    //TODO (**)
-    //add tests for new method - biggest value
 
 }
